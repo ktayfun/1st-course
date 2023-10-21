@@ -12,5 +12,5 @@ int main() {
     cout << "Введите y:" << " ";
     cin >> y;
 
-    cout << pow((3-tan(x * PI / 180)), (1/tan(x * PI / 180))) + cos((x-y) * PI / 180);
+    cout << pow((1-tan(x * PI / 180)), (1/tan(x * PI / 180))) + cos((x-y) * PI / 180);
 }
